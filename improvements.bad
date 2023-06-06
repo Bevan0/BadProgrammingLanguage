@@ -1,0 +1,24 @@
+# This is the Bad Programming Language. Text is ignored except in certain cases.
+# Using a hashtag the interpreter will ignore the entire remaining line.
+
+# This is a Brainfuck derived language. All Brainfuck code works in Bad but there are extra features.
+# The first feature: direct comments! As you see, the interpreter must ignore the line after a #.
+
+# The second feature, and more importantly: pointer saving. Save the current pointer location with:
+%example
+# to save the current data pointer.
+# Then running:
+!example
+# will move the data pointer to the saved pointer location.
+
+# The same applies with the instruction pointer, however using a & when saving it.
+&example2
+
+# There are no duplicate names in saved pointers.
+# Data pointers and instruction pointers use the same "name space", so a saved data location 'example'
+# will be overriden if you save a instruction location 'example'.
+
+# Another useful feature is better printing to the screen!
+# Insert your string inbetween two ^ characters and you'll print out the message!
+# Adding a newline works too, just add a \n to the end!
+^ASCII printing is way easier now!\n^

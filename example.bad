@@ -1,0 +1,7 @@
+^Welcome to this (rudimentary) number guess game!\n^
+^1-20 blah blah blah\n^
+
+=8%answer~> ^ thats the answer lol\n^
+^what do you think is the answer? ^,%guess
+[>]%work1[>]%work2
+!answer[]
